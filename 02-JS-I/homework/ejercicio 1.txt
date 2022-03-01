@@ -1,0 +1,31 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo 
+estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+ * Strings
+ * Funciones (argumentos, `return`)
+ * Declaraciones `if`
+ * Valores booleanos (`true`, `false`)
+
+
+Variables = Una variable es como una caja en la que queres guardar algo, lo que tu quieras, para usarlo más tarde.
+
+Strings = Un string es una cadena de texto. Pueden ser palabras, frases, numeros, todo lo que se pueda escribir como si fuera un libro.
+
+Funciones: Una funcion es una accion que queres realizar. Por ejemplo lavar la ropa. Las funciones tienen varias intrucciones, en
+el caso de lavar la ropa primero tenemos que sacar la ropa del canasto, ponerla adentro del lavarropa, preparar el jabón, etc.
+A ese conjunto de instrucciones o cosas que tenemos que hacer para -lavar la ropa- le llamamos funcion.
+
+Dentro de las funciones tenemos los argumentos. Los argumentos son las variables que vamos a usar dentro de la funcion.
+Volviendo al caso de lavar la ropa, los argumentos serian las cosas que vamos a usar para lavar la ropa.
+Ejemplos de argumentos para lavar la ropa: Remeras, medias, camisas, jabon liquido, agua.
+
+Todas las funciones necesitan si o si devolver algo, un resultado, esto se logra con return. En nuestro ejemplo, el return vendria a ser
+el resultado de nuesta funcion: La ropa Lavada.
+
+if: Es una condicion utilizada para evaluar una opcion. Por ejemplo, si mañana tenemos que ir al colegio y queremos que nuestro uniforme
+este limpio, entonces lavarlo, deberia ser una priorida. Por lo que usamos la sentencia if que en español equivaldria al "si".
+Por ejemplo, si mañana voy al colegio, entonces, tengo que lavar el uniforme primero.
+
+Los valores booleanos son valores de verdad: Verdadero (true) o falso (false). Se utilizan para saber si algo está bien o mal.
+Si te digo que 2 + 2 = 3... es verdadero o falso? Obviamente falso, porque 2 + 2 = 4. Entonces el resultado va a ser false.
