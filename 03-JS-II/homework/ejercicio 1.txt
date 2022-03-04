@@ -1,0 +1,34 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando
+a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+------------------Respuestas------------------
+
+La sentencia for se utiliza para repetir automaticamente una cantidad conocida de codigo. 
+Debemos usar un ciclo for solo cuando sabemos de antemano la cantidad de veces que se tiene que repetir un codigo.
+Por ejemplo, si tenemos que lavar la ropa y queremos que se repita el mismo lavado 2 o 3 veces para que quede bien limpio.
+
+Un operador lógico se utiliza para evaluar los valores de verdad de ciertas instrucciones, son los que deciden bajo qué condiciones 
+pasan 1 o más instrucciones. Dentro de ellos tenemos
+
+1.a) El operador lógico AND `&&` (o lo que vendría a ser "Y" en español): se utiliza cuando queremos que todas las condiciones sean verdaderas
+antes de pasar al siguiente evento. Un ejemplo con el colegio: 
+Si aprobas el examen y comes tus verduras, entonces podes jugar con tus amigos, si aprobas el examen pero no comes tus verduras, no 
+podes jugar con tus amigos y viceversa, si reprobas el examen y comes tus verduras, entonces tampoco jugas con tus amigos. Solo vas a poder
+jugar con tus amigos si aprobas el examen y comes tus verduras.
+Como hemos visto, solo podemos jugar con nuestos amigos (pasar al siguiente evento) si las condiciones anteriores son verdaderas.
+
+b) El operador lógico `||` (cuyo significado es la "o" de Oso): se utiliza cuando queremos que cuando una o más condiciones sean verdaderas,
+poder pasar al siguiente evento. Por ejemplo:
+Si aprobas el examen o comes tus verduras, entonces podes jugar con tus amigos. Sea cual sea que hagas (Aprobar el examen o comer tus verduras)
+vas a poder jugar con tus amigos. La unica forma de que no vayas a jugar con tus amigos es si desaprovaste el examen y no comiste tus verduras.
+Si aprobas el examen y comes tus verduras, vas a poder jugar con tus amigos porque cumpliste con las 2 condiciones (aunque solo 1 de ellas era
+obligatoria :D).
+
+c) El operador lógico `!` (lo que vendría ser "NO" o "es falso que" en español) significa que haces lo contrario a lo que decis: por ejemplo
+Si no hay azucar, comprar edulcorante. 
+!(si no hay azucar, entonces comprar edulcorante) = si hay azucar, no comprar edulcorante.
+
+
