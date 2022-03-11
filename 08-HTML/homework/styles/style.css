@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+h1{
+    color: #222222;
+}
+img{
+    width: 25rem;
+}
+#thirdDiv{
+    height: 37.5rem;
+    width: 31.25;
+    background-color: #dddddd;
+    padding: 3.125rem;
+    border: 5px #cccccc solid;
+}
+#spanId{
+    font-size: 1.125rem;
+    margin: 3.125rem;
+}
