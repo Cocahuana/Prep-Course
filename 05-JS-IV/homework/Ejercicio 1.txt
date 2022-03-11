@@ -1,0 +1,26 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras 
+explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+Objetos: Un objeto es una coleccion de datos cuyo indice es en forma de string y no en un formato numerico como el caso de los arrays.
+En otras palabras: Un objeto es un elemento que tiene caracteristicas, en el ejemplo de un objeto auto; El auto tiene un motor, luces,
+un volante y cada elemento del auto cumple una funcion. EL auto puede ser rojo, puede tener diferentes marcas, una patente, etc.
+El chiste es que cada objeto debe ser unico, es decir, solo hay 1 ferrari, pero en la marca ferrari puede haver diferentes modelos como
+el Spider, o el testarossa, cada ferrari puede tener su propio color e incluso ser cambiado. Pero un auto ferrari es un unico objeto, pueden
+existir otros objetos autos como Audi, Ford, Fiat, etc..
+
+Propiedades: Una propiedad, es una caracteristica que tiene un objeto, en nuestro caso del auto. Una propiedad puede ser el color, 
+la altura de las ruedas, el tipo de caja de cambio. Son esas cosas con las que el auto está construido.
+
+Métodos: Un metodo es una funcion que cumple/realiza nuestro objeto. En el ejemplo del auto, un método sería arrancar el vehiculo.
+
+Bucle For..in: El for in recorre las propiedades del objeto y las almacena en nuestra primer variable creada como si fuera un array.
+Podremos acceder a este "array" más tarde mediante un indice numerico.
+
+Notación de puntos y con corchetes: Se usan para acceder a una propiedad del objeto.
+La diferencia radica en su uso. Por lo general utilizamos la notacion con corchetes para acceder a variables de los objetos.
