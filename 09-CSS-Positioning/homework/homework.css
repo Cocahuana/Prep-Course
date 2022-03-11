@@ -7,32 +7,75 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block; /*El texto es un elemento inline, por lo que hay que cambiarlo a block*/
+    text-align: center;
 }
-
 
 /* Ejercicio 2: Posicionar el header */
 
+#ejercicioDos{
+    display: none;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 3: */
-
+#ejercicioTres{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 4: */
-
+#ejercicioCuatro{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 5: */
-
+#ejercicioCinco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 6. */
+#ejercicioCinco{
+    flex-direction: row-reverse;
+}
+
+/* Ejercicio 7. */
+#ejercicioSiete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+#elementoUno{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#elementoDos{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* Acá va tu código */
+
+/* Punto extra 1 */
+
+/* Acá va tu código */
+
+/* Punto extra 2 */
+
+/* Acá va tu código */
