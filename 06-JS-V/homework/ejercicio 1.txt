@@ -1,0 +1,35 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras 
+explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+/*CONVENCIÓN: Nunca cambiar una propiedad que tenga dobles guiones (__proto__) por ejemplo. Ya que es una mala práctica.*/
+
+prototype: Todos los objetos en JavaScript tienen una referencia a otro objeto llamado proto. El prototype es el origen del objeto.
+Los objetos estan basados en el prototype. El prototype de un objeto Audi, Fiat o Ferrari es auto. Auto es el prototype.
+> audi.__proto__
+< car{}
+
+El proto de la propiedad .length es String{" "}. Se lo invoca: 'string'.__proto__
+String{" "} es una clase creada por el autor de JavaScript para que pueda ser invocado mediante los metodos push(), pop(), etc. 
+
+_Constructors_: El constructor es aquella propiedad que le da vida a una clase
+
+
+function Persona(edad){
+    this.edad = edad;
+}
+
+Persona.prototype.getEdad = function(){
+    return this.edad;
+}
+
+var obj = new Persona(22);
+
+var obj2 = new Persona(34);
+
+var obj3 = new Persona(213221);
+
+De esta forma se ahorra memoria invocando un mismo método (getEdad) sin ocupar mucho espacio en la memoria del computador y sin tener 
+que repetir el metodo en todos los objetos
